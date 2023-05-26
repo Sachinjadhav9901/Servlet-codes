@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="save" method="post">
+<fieldset border="2px" style="width:2px" color="grey">
+EmpId:<input type="text" name="EmpId" placeholder="EnterId"><br>
+EmpName:<input type=text name="EmpName" placeholder="EnterName"><br>
+phone:<input type="number" name="Number" placeholder="EnterNumber"><br>
+password:<input type="password" name="Password" placeholder="Enterpassword"><br>
+Email:<input type="email" name="Email" placeholder="Enteremail">
+<br>
+<button>Save</button>
+</fieldset>
+</form>
+<br>
+
+<form action="search" method="post">
+<fieldset border="2px" style="width:2px" >
+EnterId:<input type="text" name="Id" placeholder="EnterId"><br>
+<br>
+<button>SearchbyId</button>
+</fieldset>
+</form>
+<br>
+
+<form action="searchbyemail" method="post">
+<fieldset border="1px" style="width:1px" >
+EnterEmail:<input type="email" name="Email" placeholder="Enteremail"><br>
+<br>
+<button>Searchbyemail</button>
+</fieldset>
+</form>
+<br>
+
+<form action="" method="post">
+<fieldset border="1px" style="width: 1px" >
+<button>FetchAll</button>
+</fieldset>
+</form>
+</body>
+</html>
